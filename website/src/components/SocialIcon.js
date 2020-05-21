@@ -25,12 +25,12 @@ export default function SocialIcon(props) {
       overlay={renderTooltip(props)}
     >
       <a
-        class="btn btn-social-icon"
+        className="btn btn-social-icon"
         target="_blank"
         rel="noopener noreferrer"
         href={props.link}
       >
-        <span class={`fa fa-${props.icon} fa-2x`}></span>
+        <span className={`fa fa-${props.icon} fa-2x`}></span>
       </a>
     </OverlayTrigger>
   )

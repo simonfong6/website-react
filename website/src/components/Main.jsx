@@ -38,7 +38,7 @@ function Main() {
           link="/resume.pdf"
           tooltip="Resume"
         />
-        <div class="card-deck">
+        <div className="card-deck">
           <Card style={{ width: '18rem'}}>
             <Card.Body>
               <Card.Title>Subtle Asian Dating Score Test</Card.Title>
