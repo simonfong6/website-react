@@ -9,13 +9,12 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 // Custom Components
 import SocialIcon from './SocialIcon';
 
-const dataSciencePresentationUrl = "https://docs.google.com/presentation/d/e/2PACX-1vS6ga2yJyG4DLHy3NqM45bMSaWShGB8QL8UWTp_AIHuywmi9bT1lAvE9VftSEF6QdJfw8IVJLOL5IXH/pub?start=false&loop=false&delayms=3000&slide=id.p1";
+const dataSciencePresentationUrl = 'https://docs.google.com/presentation/d/e/2PACX-1vS6ga2yJyG4DLHy3NqM45bMSaWShGB8QL8UWTp_AIHuywmi9bT1lAvE9VftSEF6QdJfw8IVJLOL5IXH/pub?start=false&loop=false&delayms=3000&slide=id.p1';
 
 function Main() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      
       <Container>
         <h1>Simon Fong</h1>
         <SocialIcon
@@ -48,10 +47,22 @@ function Main() {
               </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-              <ListGroupItem>Built within 4 hours</ListGroupItem>
-              <ListGroupItem>Over 20,000 visits</ListGroupItem>
-              <ListGroupItem><Card.Link href={dataSciencePresentationUrl}>Data Analysis Presentation</Card.Link></ListGroupItem>
-              <ListGroupItem><Card.Link href="https://github.com/simonfong6/ECE-143-Team-6">Data Analysis Code</Card.Link></ListGroupItem>
+              <ListGroupItem>
+                Built within 4 hours
+              </ListGroupItem>
+              <ListGroupItem>
+                Over 20,000 visits
+              </ListGroupItem>
+              <ListGroupItem>
+                <Card.Link href={dataSciencePresentationUrl}>
+                  Data Analysis Presentation
+                </Card.Link>
+              </ListGroupItem>
+              <ListGroupItem>
+                <Card.Link href="https://github.com/simonfong6/ECE-143-Team-6">
+                  Data Analysis Code
+                </Card.Link>
+              </ListGroupItem>
             </ListGroup>
             <Card.Body>
               <SocialIcon
@@ -68,9 +79,14 @@ function Main() {
           </Card>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
-              <Card.Title>More projects to come... <span role="img" aria-label="smileyface">😊</span></Card.Title>
+              <Card.Title>
+                More projects to come...
+                <span role="img" aria-label="smileyface">😊</span>
+              </Card.Title>
               <Card.Text>
-                Please check my <a href="https://github.com/simonfong6">GitHub</a> for now.
+                Please check my
+                <a href="https://github.com/simonfong6">GitHub</a>
+                for now.
               </Card.Text>
             </Card.Body>
           </Card>
