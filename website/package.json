@@ -36,6 +36,5 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  },
-  "homepage": "https://simonfong6.github.io/website-react/"
+  }
 }
