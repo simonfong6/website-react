@@ -1,37 +1,42 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
-const renderTooltip = props => (
+const renderTooltip = (tooltip) => (
   <div
-    {...props}
     style={{
       backgroundColor: 'rgba(0, 0, 0, 0.85)',
       padding: '2px 10px',
       color: 'white',
       borderRadius: 3,
-      ...props.style,
     }}
   >
-    {props.tooltip}
+    {tooltip}
   </div>
 );
 
 
-export default function SocialIcon(props) {
+export default function SocialIcon({ tooltip, link, icon }) {
   return (
     <OverlayTrigger
       placement="top-start"
       delay={{ show: 250, hide: 250 }}
-      overlay={renderTooltip(props)}
+      overlay={renderTooltip(tooltip)}
     >
       <a
         className="btn btn-social-icon"
         target="_blank"
         rel="noopener noreferrer"
-        href={props.link}
+        href={link}
       >
-        <span className={`fa fa-${props.icon} fa-2x`}></span>
+        <span className={`fa fa-${icon} fa-2x`} />
       </a>
     </OverlayTrigger>
-  )
+  );
 }
+
+SocialIcon.propTypes = {
+  tooltip: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
