@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Bootstrap
 import Container from 'react-bootstrap/Container';
@@ -12,7 +12,6 @@ import SocialIcon from './SocialIcon';
 const dataSciencePresentationUrl = 'https://docs.google.com/presentation/d/e/2PACX-1vS6ga2yJyG4DLHy3NqM45bMSaWShGB8QL8UWTp_AIHuywmi9bT1lAvE9VftSEF6QdJfw8IVJLOL5IXH/pub?start=false&loop=false&delayms=3000&slide=id.p1';
 
 function Main() {
-
   return (
     <div style={{ textAlign: 'center' }}>
       <Container>
@@ -38,7 +37,7 @@ function Main() {
           tooltip="Resume"
         />
         <div className="card-deck">
-          <Card style={{ width: '18rem'}}>
+          <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title>Subtle Asian Dating Score Test</Card.Title>
               <Card.Text>
