@@ -84,7 +84,9 @@ function Main() {
               </Card.Title>
               <Card.Text>
                 Please check my
+                {' '}
                 <a href="https://github.com/simonfong6">GitHub</a>
+                {' '}
                 for now.
               </Card.Text>
             </Card.Body>
