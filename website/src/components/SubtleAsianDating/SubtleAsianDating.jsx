@@ -70,13 +70,17 @@ function SubtleAsianDating() {
             switch (detail.type) {
               case 'text':
                 return (
-                  <ListGroupItem>
+                  <ListGroupItem
+                    key={detail.text}
+                  >
                     {detail.text}
                   </ListGroupItem>
                 );
               case 'link':
                 return (
-                  <ListGroupItem>
+                  <ListGroupItem
+                    key={detail.text}
+                  >
                     <Card.Link href={detail.link}>
                       {detail.text}
                     </Card.Link>
@@ -92,6 +96,7 @@ function SubtleAsianDating() {
         {
           icons.map((icon) => (
             <SocialIcon
+              key={icon.link}
               icon={icon.icon}
               link={icon.link}
               tooltip={icon.tooltip}

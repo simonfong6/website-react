@@ -36,6 +36,7 @@ function Header() {
       {
         icons.map((icon) => (
           <SocialIcon
+            key={icon.link}
             icon={icon.icon}
             link={icon.link}
             tooltip={icon.tooltip}
