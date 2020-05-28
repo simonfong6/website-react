@@ -41,45 +41,6 @@ function Main() {
           <SubtleAsianDating />
           <Card style={{ width: '18rem' }}>
             <Card.Body>
-              <Card.Title>Subtle Asian Dating Score Test</Card.Title>
-              <Card.Text>
-                A quiz to measure how dateable you are in the Subtle Asian Dating
-                community.
-              </Card.Text>
-            </Card.Body>
-            <ListGroup className="list-group-flush">
-              <ListGroupItem>
-                Built within 4 hours
-              </ListGroupItem>
-              <ListGroupItem>
-                Over 20,000 visits
-              </ListGroupItem>
-              <ListGroupItem>
-                <Card.Link href={dataSciencePresentationUrl}>
-                  Data Analysis Presentation
-                </Card.Link>
-              </ListGroupItem>
-              <ListGroupItem>
-                <Card.Link href="https://github.com/simonfong6/ECE-143-Team-6">
-                  Data Analysis Code
-                </Card.Link>
-              </ListGroupItem>
-            </ListGroup>
-            <Card.Body>
-              <SocialIcon
-                icon="globe"
-                link="http://subtleasiandating.org/"
-                tooltip="subtleasiandating.org"
-              />
-              <SocialIcon
-                icon="github-square"
-                link="https://github.com/simonfong6/sad-score"
-                tooltip="Code"
-              />
-            </Card.Body>
-          </Card>
-          <Card style={{ width: '18rem' }}>
-            <Card.Body>
               <Card.Title>
                 More projects to come...
                 <span role="img" aria-label="smileyface">😊</span>
