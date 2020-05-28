@@ -46,12 +46,6 @@ const data = {
   ],
 };
 
-const style = {
-  width: '18rem',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-
 function SubtleAsianDating() {
   const {
     title,
@@ -61,7 +55,7 @@ function SubtleAsianDating() {
   } = data;
 
   return (
-    <Card style={style}>
+    <Card>
       <Card.Body>
         <Card.Title>
           {title}

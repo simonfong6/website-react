@@ -2,15 +2,9 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card';
 
-const style = {
-  width: '18rem',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-
 function MoreProjects() {
   return (
-    <Card style={style}>
+    <Card>
       <Card.Body>
         <Card.Title>
           More projects to come...
