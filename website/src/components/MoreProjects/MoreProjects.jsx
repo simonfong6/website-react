@@ -2,12 +2,7 @@ import React from 'react';
 
 import Card from 'react-bootstrap/Card';
 
-const data = {
-};
-
 function MoreProjects() {
-  const {} = data;
-
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Body>
