@@ -35,7 +35,7 @@ const data = {
 };
 
 function SubtleAsianDating() {
-  const {title, description, details} = data;
+  const { title, description, details } = data;
 
   return (
     <Card style={{ width: '18rem' }}>
