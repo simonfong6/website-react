@@ -8,6 +8,7 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 
 // Custom Components
 import SocialIcon from './SocialIcon';
+import SubtleAsianDating from './SubtleAsianDating';
 
 const dataSciencePresentationUrl = 'https://docs.google.com/presentation/d/e/2PACX-1vS6ga2yJyG4DLHy3NqM45bMSaWShGB8QL8UWTp_AIHuywmi9bT1lAvE9VftSEF6QdJfw8IVJLOL5IXH/pub?start=false&loop=false&delayms=3000&slide=id.p1';
 
@@ -37,6 +38,7 @@ function Main() {
           tooltip="Resume"
         />
         <div className="card-deck">
+          <SubtleAsianDating />
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title>Subtle Asian Dating Score Test</Card.Title>
