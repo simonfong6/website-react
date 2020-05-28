@@ -32,10 +32,22 @@ const data = {
       link: 'https://github.com/simonfong6/ECE-143-Team-6',
     },
   ],
+  icons: [
+    {
+      icon: 'globe',
+      link: 'http://subtleasiandating.org/',
+      tooltip: 'subtleasiandating.org',
+    },
+    {
+      icon: 'github-square',
+      link: 'https://github.com/simonfong6/sad-score',
+      tooltip: 'Code',
+    },
+  ],
 };
 
 function SubtleAsianDating() {
-  const { title, description, details } = data;
+  const { title, description, details, icons } = data;
 
   return (
     <Card style={{ width: '18rem' }}>
@@ -72,16 +84,15 @@ function SubtleAsianDating() {
         }
       </ListGroup>
       <Card.Body>
-        <SocialIcon
-          icon="globe"
-          link="http://subtleasiandating.org/"
-          tooltip="subtleasiandating.org"
-        />
-        <SocialIcon
-          icon="github-square"
-          link="https://github.com/simonfong6/sad-score"
-          tooltip="Code"
-        />
+        {
+          icons.map((icon) => (
+            <SocialIcon
+              icon={icon.icon}
+              link={icon.link}
+              tooltip={icon.tooltip}
+            />
+          ))
+        }
       </Card.Body>
     </Card>
   );
