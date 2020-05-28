@@ -4,9 +4,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 // Custom Components
-import Header from './Header';
-import SubtleAsianDating from './SubtleAsianDating';
-import MoreProjects from './MoreProjects';
+import Header from '../Header';
+import SubtleAsianDating from '../SubtleAsianDating';
+import MoreProjects from '../MoreProjects';
 
 function Main() {
   return (
